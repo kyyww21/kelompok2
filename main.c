@@ -20,7 +20,11 @@ int main(){
             printf("\nBuku ke-%d : %s", j, Buku[j]);            
         }
         }
+<<<<<<< HEAD
         printf("\nTerimakasih Sudah Memenjiam");
         printf("Masukan nama kamu disini : ");
+=======
+    
+>>>>>>> d236fbbc85cab619383316410a204da1f45a68f4
 
 }
