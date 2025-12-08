@@ -1,28 +1,5 @@
 #include <stdio.h>
 
-    char bukuTersedia[][10] = {"BK001", "BK002", "BK003", "BK004"};
-    int jumlah = 4;
-    char kode[10];
-    int ditemukan = 0;
-
-void statusBuku() {
-    printf("Masukkan kode buku: ");
-    scanf("%s", kode);
-
-    // Cek apakah kode ada di daftar
-    for (int i = 0; i < jumlah; i++) {
-        if (strcmp(kode, bukuTersedia[i]) == 0) {
-            ditemukan = 1;
-            break;
-        }
-    }
-
-    // Output status
-    if (ditemukan)
-        printf("Status buku: tersedia\n");
-    else
-        printf("Status buku: dipinjam\n");
-}
 
 int main() {
     int opsi, SubOpsi1, SubOpsi2, SubOpsi3;
@@ -35,7 +12,7 @@ int main() {
            "4. Status Buku\n"
            "5. Pengunjung\n"
            "6. Searching\n"
-           "7. Selesai\n"
+           "7. Selesai\n" 
            "Pilihan Anda: ");
     scanf("%d", &opsi);
 
