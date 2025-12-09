@@ -108,6 +108,7 @@ int main() {
 
     printf("Terimakasih sudah mengisi");
     printf("Good");
+    printf("halo");
 
 
     return 0;
