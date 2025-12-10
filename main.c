@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
     char kode[10];
     int ditemukan = 0;
@@ -12,17 +13,17 @@ void statusBuku() {
 
     // Cek apakah kode ada di daftar
     for (int i = 0; i < jumlah; i++) {
-        if (strcmp(kode, bukuTersedia[i]) == 0) {
+        if ((strcmp(kode, bukuTersedia[i])) == 0) {
             ditemukan = 1;
             break;
         }
-
+    }
     // Output status
     if (ditemukan)
         printf("Status buku: tersedia\n");
     else
         printf("Status buku: dipinjam\n");
-}
+
 }
 void Pilihan(){
     printf("Apa yang ingin anda lakukan ?\n"
