@@ -1,4 +1,5 @@
 
+#include <stdio.h>
 void Peminjaman(){
     int j;
     printf("Masukan Jumlah Buku yang Ingin di pinjam : ");
