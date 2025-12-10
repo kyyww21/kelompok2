@@ -6,6 +6,7 @@
 
     char kode[10];
     int ditemukan = 0;
+    
 void statusBuku() {
 
     printf("Masukkan kode buku: ");
@@ -109,7 +110,7 @@ int main() {
     printf("Terimakasih sudah mengisi");
     printf("Good");
     printf("halo");
-    printf("hola");
+    printf("hola"); 
 
 
     return 0;
