@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <string.h>
 
     char kode[10];
     int ditemukan = 0;
