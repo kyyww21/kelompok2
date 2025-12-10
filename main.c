@@ -115,7 +115,8 @@ int main() {
     printf("Terimakasih sudah mengisi");
     printf("Good");
     printf("halo");
-    printf("hola"); 
+    printf("hola");
+    printf("aoa");
 
 
     return 0;
