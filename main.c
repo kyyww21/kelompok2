@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <string.h>
-// Daftar buku yang tersedia
-    char bukuTersedia[][10] = {"BK001", "BK002", "BK003", "BK004"};
-    int jumlah = 4;
 
     char kode[10];
     int ditemukan = 0;
+    int jumlah;
+    char bukuTersedia[20][20];
     
 void statusBuku() {
 
