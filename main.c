@@ -17,13 +17,20 @@ void statusBuku() {
             ditemukan = 1;
             break;
         }
-    }
+
     // Output status
     if (ditemukan)
         printf("Status buku: tersedia\n");
     else
         printf("Status buku: dipinjam\n");
 
+}
+}
+void Permision(){
+    for (int i = 1; i <= 10; i++){
+        printf("Diki ganteng\n");
+        printf("Diki baik hati\n");
+    }
 }
 void Pilihan(){
     printf("Apa yang ingin anda lakukan ?\n"
