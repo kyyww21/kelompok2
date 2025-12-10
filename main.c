@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <string.h>
-// Daftar buku yang tersedia
-    char bukuTersedia[][10] = {"BK001", "BK002", "BK003", "BK004"};
-    int jumlah = 4;
 
     char kode[10];
     int ditemukan = 0;
+    int jumlah;
+    char bukuTersedia[20][20];
+    
 void statusBuku() {
 
     printf("Masukkan kode buku: ");
@@ -13,17 +13,17 @@ void statusBuku() {
 
     // Cek apakah kode ada di daftar
     for (int i = 0; i < jumlah; i++) {
-        if (strcmp(kode, bukuTersedia[i]) == 0) {
+        if ((strcmp(kode, bukuTersedia[i])) == 0) {
             ditemukan = 1;
             break;
         }
     }
-
     // Output status
     if (ditemukan)
         printf("Status buku: tersedia\n");
     else
         printf("Status buku: dipinjam\n");
+
 }
 void Pilihan(){
     printf("Apa yang ingin anda lakukan ?\n"
@@ -36,7 +36,14 @@ void Pilihan(){
            "7. Selesai\n" 
            "Pilihan Anda: ");
 }
-
+void Peminjaman(){
+    int j;
+    printf("Masukan Jumlah Buku yang Ingin di pinjam : ");
+    scanf("%d", &j);
+    for (int i = 1; i <= j; i++){
+        printf("Diki ganteng 1234\n");
+    }
+}
 int main() {
     int opsi, SubOpsi1, SubOpsi2, SubOpsi3;
 
@@ -110,7 +117,11 @@ int main() {
     printf("Good");
     printf("halo");
     printf("hola");
+<<<<<<< HEAD
     
+=======
+    printf("aoa");
+>>>>>>> 1ab4dd555925f6953c232a7e6052b00aa24a76ff
 
 
     return 0;

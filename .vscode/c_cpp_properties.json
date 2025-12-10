@@ -10,8 +10,15 @@
                 "UNICODE",
                 "_UNICODE"
             ],
+<<<<<<< HEAD
             "compilerPath": "C:\\Users\\Naura\\Downloads\\mingw64\\bin\\gcc.exe",
             "intelliSenseMode": "windows-gcc-x64"
+=======
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerPath": "C:/Users/Rizqi/Downloads/x86_64-15.2.0-release-win32-seh-msvcrt-rt_v13-rev0/mingw64/bin/gcc.exe"
+>>>>>>> 1ab4dd555925f6953c232a7e6052b00aa24a76ff
         }
     ],
     "version": 4
