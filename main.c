@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <string.h>
 
 void Peminjaman(){
     int j;
@@ -9,6 +7,4 @@ void Peminjaman(){
         printf("Diki ganteng 1234\n");
     }
 }
-int main(){
-    Peminjaman();
-}
+
