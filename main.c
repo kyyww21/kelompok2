@@ -117,11 +117,7 @@ int main() {
     printf("Good");
     printf("halo");
     printf("hola");
-<<<<<<< HEAD
-    
-=======
     printf("aoa");
->>>>>>> 1ab4dd555925f6953c232a7e6052b00aa24a76ff
 
 
     return 0;
